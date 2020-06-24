@@ -10,8 +10,10 @@ def join_nested_strings(src)
     while element_index<src[row_index].count do
         element_string = " "
         if src[row_index][element_index].class == String
-        element_string << src[row_index][element_index]
+          element_string << src[row_index][element_index]
+          
         end
+      
       element_index += 1 
       array_of_strings << element_string
     end   
