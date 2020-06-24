@@ -11,11 +11,11 @@ def join_nested_strings(src)
         element_string = " "
         if src[row_index][element_index].class == String
           element_string << src[row_index][element_index]
-          
+          array_of_strings << element_string
         end
       
       element_index += 1 
-      array_of_strings << element_string
+      
     end   
     row_index += 1
   end  
